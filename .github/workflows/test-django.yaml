@@ -2,8 +2,6 @@ name: 1 - Test Django
 
 on:
    workflow_dispatch:
-   push:
-      branches: [main]
    
 jobs:
    django_test:
